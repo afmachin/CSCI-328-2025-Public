@@ -41,20 +41,21 @@ public class StrategyGame {
         System.out.println("Attack it!!");
 
         if(chosenCharacter.equalsIgnoreCase(knight)) {
-            System.out.println("You swing your sword!");
+            System.out.println("The " + knight + " swings a sword!");
 
         } else if  (chosenCharacter.equalsIgnoreCase(archer)) {
-            System.out.println("You shoot an arrow!");
+            System.out.println("The " + archer + " shoots an arrow!");
 
 
         } else if  (chosenCharacter.equalsIgnoreCase(mage)) {
 
-            System.out.println("You cast a fireball!");
+            System.out.println("The " + mage + " casts a fireball!");
             
         } else {
             System.out.println("You did not choose a character we have!");
         }
         // TODO Add more characters like a rogue and a barbarian
+        // And implement a way to change weapons
 
         userInput.close();
     }
