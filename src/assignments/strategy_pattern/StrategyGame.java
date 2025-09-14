@@ -54,7 +54,8 @@ public class StrategyGame {
         } else {
             System.out.println("You did not choose a character we have!");
         }
-    }
-    // TODO Add more characters like a rogue and a barbarian
+        // TODO Add more characters like a rogue and a barbarian
 
+        userInput.close();
+    }
 }
