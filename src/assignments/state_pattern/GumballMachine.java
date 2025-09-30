@@ -3,9 +3,9 @@ import java.util.Random;
 public class GumballMachine {
  
 	public enum GumballState { SoldOutState, NoQuarterState, HasQuarterState, SoldState, WinnerState }
-	int count = 0;
-	GumballState gumballState;
-	Random randomWinner = new Random(System.currentTimeMillis());
+	private int count = 0;
+	private GumballState gumballState;
+	private Random randomWinner = new Random(System.currentTimeMillis());
  
 	public GumballMachine(int numberGumballs) {
 		gumballState = GumballState.SoldOutState;
@@ -122,6 +122,8 @@ public class GumballMachine {
 	public int getCount() {
 		return count;
 	}
+
+	// public ? getState(){}
  
 	public void refill(int count) {
 		this.count += count;
