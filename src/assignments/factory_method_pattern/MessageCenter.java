@@ -19,7 +19,7 @@ public class MessageCenter {
         System.out.println("What is your contact information for your choice?");
         contactInformation = scnr.nextLine();
         if(choice.equals("1")){
-            // Does not need name, in case name not present, set name as "Customer"
+            // TODO Add step for name: Does not need name, in case name not present, set name as "Customer"
             if (emailVerification(contactInformation)){
                 System.out.println("We are sending an email to " + name + " at " + contactInformation);
             }

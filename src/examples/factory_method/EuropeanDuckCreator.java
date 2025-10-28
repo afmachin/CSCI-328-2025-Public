@@ -3,7 +3,7 @@ import java.util.Random;
 
 
 public class EuropeanDuckCreator extends DuckCreator {
-    // This is where the benefit of the Factory metho lies. 
+    // This is where the benefit of the Factory method lies. 
     // If object creation is complex, and you only need one group of objects
     // This extracts away the object creation logic from the client
     public Duck createDuck(){
