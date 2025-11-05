@@ -14,4 +14,6 @@ public class Computer {
 	private boolean isBluetoothEnabled;
 	private boolean isWiFiEnabled;
     private boolean opticalDiscDrive;
+
+	// TODO: Add toString()
 }
